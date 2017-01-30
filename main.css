@@ -1,0 +1,64 @@
+body{
+  margin: 0;
+}
+.encabezado,.contenido,.contenido-lateral,.pie-pagina{
+  padding: 1em 2em;
+}
+.contenido,.contenido-lateral,.pie de página{
+  float: left;
+  box-sizing: border-box;
+}
+.encabezado{
+  background: rgb(247, 220, 22);
+  height: 100px;
+}
+.contenido{
+  width: 60%;
+}
+.contenido-lateral{
+  width: 40%;
+  background: rgb(163, 163, 113);
+  height: 500px;
+}
+.post{
+  background: rgba(117, 255, 26, 0.46);
+  height: 100px;
+  margin-bottom: 1em;
+}
+pie-pagina{
+  width: 100px;
+  background: #000;
+  height: 50px;
+}
+nav{
+  float: right;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+nav ul {
+  float: right;
+  list-style: none;
+}
+nav ul li {
+  display: inline;
+
+}
+nav ul li a {
+  color: white;
+  font-size: 30px;
+  margin-left: 5px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+}
+li.active{
+  display: none;
+}
+li.close{
+  display: none;
+}
+@media screen and (max-width: 700px){
+
+}
