@@ -60,8 +60,11 @@ li.close{
   display: none;
 }
 .red {
-  background: red;
+  background: yellow;
   border: 1px solid blue;
+}
+.saludo {
+  color: red;
 }
 @media screen and (max-width: 700px){
 
