@@ -9,7 +9,7 @@ body{
   box-sizing: border-box;
 }
 .encabezado{
-  background: rgb(247, 220, 22);
+  background: rgb(447, 420, 122);
   height: 100px;
 }
 .contenido{
@@ -17,7 +17,7 @@ body{
 }
 .contenido-lateral{
   width: 40%;
-  background: rgb(163, 163, 113);
+  background: rgb(103, 63, 113);
   height: 500px;
 }
 .post{
