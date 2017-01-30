@@ -1,7 +1,13 @@
 body{
-  margin: 0;
+  margin: 0 auto;
+  padding: 5%;
 }
-.encabezado,.contenido,.contenido-lateral,.pie-pagina{
+.content{
+  width: 80%;
+  max-width: 1000px;
+  min-width: 200px;
+}
+.contenido,.contenido-lateral,.pie-pagina{
   padding: 1em 2em;
 }
 .contenido,.contenido-lateral,.pie de página{
@@ -11,6 +17,7 @@ body{
 .encabezado{
   background: rgb(447, 420, 122);
   height: 100px;
+  width: 88%;
 }
 .contenido{
   width: 60%;
@@ -41,7 +48,6 @@ nav ul {
 }
 nav ul li {
   display: inline;
-
 }
 nav ul li a {
   color: white;
@@ -70,4 +76,65 @@ li.close{
   background: black;
   color: white;
   border: 3px solid blue;
+}
+.imagene{
+  width: 100%;
+}
+.menu-bar{
+  display: none;
+  height: 20px;
+  width: 100px;
+}
+@media screen and (max-width:600px){
+  body{
+    background: rgba(255, 0, 0, 0.12);
+  }
+  .post {
+    background: rgba(18, 15, 66, 0.95);
+    height: 194px;
+    width: 50%;
+    padding: 0;
+    margin-bottom: 1em;
+    font-size: 12px;
+    text-align: center;
+    color: wheat;
+  }
+  .contenido-lateral{
+    width: 30%;
+  }
+  .contenido {
+    width: 58%;
+}
+  .menu-bar{
+    display: block;
+    width: 100%;
+    }
+  .menu-bar .btn-menu{
+    padding: 20px;
+    display: block;
+    background: orange;
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+    box-sizing: border-box;
+    }
+  .menu-bar span{
+    float: right;
+  }
+  .encabezado .menu {
+    width: 60%;
+    height: 100%;
+    left: -100%;
+    position: fixed;
+    margin: 32px 0;
+    background: rgba(255, 165, 0, 0.92);
+  }
+  .ejempl{
+    display: block;
+  }
+  nav ul {
+    float: left;
+    list-style: none;
+    padding-left: 0;
+  }
 }
